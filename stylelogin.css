@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("imageneslogin/Fondos-de-pantalla-de-jardinería-ak.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 40px;
+    opacity: 0.8;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+
+}
+
+.checkbox{
+    width: 15px;
+    height: 15px;
+    display: inline;
+    margin-left: 30px;
+
+}
+label{
+    color: darkslategray;
+}
+a{
+    color: darkslategray;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+
+.boton{
+    width: 150px;
+    border-radius: 15px;
+    background-color: peachpuff;
+    color:black;
+    margin-top: 30px;
+    border: none;
+    margin-left: 85px;
+}
+
+a:hover{
+    color: #b8b8b8;
+}
+
+label:hover{
+    color: #b8b8b8;
+}
+.boton:hover{
+    background-color: burlywood;
+    width: 145px;
+}
