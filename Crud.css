@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+.dropdown>button{
+    background-color: #ffff;
+    color: black;
+}
+.dropdown>button:hover{
+    background-color: #ffff;
+    color: black;
+}
+.pie{
+    padding-top: 10px;
+}
+.pie>footer:hover{
+    color: black;
+}
+footer>a{
+    text-decoration: none;
+    color: slategrey;
+}
+#caja1{
+    display: flex;
+    justify-content: center;
+}
+#caja2{
+    display: flex;
+    justify-content: center;
+}
+.cajatexto{
+    background-image:url(imagenes/OpenMind_plantas_1.jpg) ;
+}

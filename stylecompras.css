@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+.dropdown>button{
+    background-color: #ffff;
+    color: black;
+}
+.dropdown>button:hover{
+    background-color: #ffff;
+    color: black;
+}
+#footer {
+    background-color: #292C44;
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+}
+.pie{
+    padding-top: 10px;
+
+
+}
+.pie>footer:hover{
+    color: black;
+}
+footer>a{
+    text-decoration: none;
+    color: slategrey;
+}
+.listacompra{
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-row>button{
+    text-decoration: none;
+    border: black;
+}
